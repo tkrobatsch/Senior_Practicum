@@ -15,7 +15,7 @@
  limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.bluetoothadvertisements"
+    package="com.example.android.encryptedgarage"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -36,8 +36,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Service to handle BLE Advertising - Using a service allows advertising to continue
-             when the app is no longer on screen in a reliable manner.  -->
         <service
             android:name=".AdvertiserService"
             android:enabled="true"
